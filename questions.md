@@ -1,16 +1,31 @@
 # Linux Cloud Engineer
 
 - Boot process of Linux
+
 - How to install package (Red hat, Debian, Ubuntu)
+
 - Difference between soft link and hard link
+
 - SSH not working in general for linux. how will you troubleshoot.
 - Permissions - chown, chgrp, chmod
 - sticky bit
 - sgid
+SGID (Set Group ID up on execution) is a special type of file permissions given to a file/folder. 
+Normally in Linux/Unix when a program runs, it inherits access permissions from the logged in user.
+
 - suid
+SUID (Set owner User ID up on execution) is a special type of file permissions given to a file. 
+Normally in Linux/Unix when a program runs, it inherits access permissions from the logged in user.
+
+
 - Linux File Structure
+https://www.geeksforgeeks.org/linux-file-hierarchy-structure/
+
 - what is Shell - UI
+In computing, a shell is a user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation.
+
 - Primary, Extended, Logical Partition
+
 - Different run levels
 - single user mode and its use
 - file of runlevels - /etc/init
